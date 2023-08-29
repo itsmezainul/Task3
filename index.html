@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NIKE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="home">
+      <nav class="navbar navbar-expand position-fixed w-100">
+        <div class="container-md">
+          <a href="#">
+            <img class="navbar-brand" src="./assets/Logo_NIKE.svg.png" alt="" />
+          </a>
+          <ul class="nav d-md-flex d-none">
+            <li class="nav-item">
+              <a class="nav-link fw-semibold active" href="#home">Home</a>
+            </li>
+            <li class="nav-item fw-semibold">
+              <a class="nav-link" href="#shop">Shop</a>
+            </li>
+            <li class="nav-item fw-semibold">
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item fw-semibold">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item fw-semibold">
+              <a class="nav-link" href="#contacts">Contact</a>
+            </li>
+          </ul>
+          <img
+            class="d-md-none btn"
+            src="./assets/icon-menu.svg"
+            alt="menu-open-button"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mobile-menu"
+          />
+        </div>
+      </nav>
+      <div class="offcanvas offcanvas-end p-3" id="mobile-menu">
+        <div class="offcanvas-header justify-content-end">
+          <img
+            class="btn"
+            type="button"
+            data-bs-dismiss="offcanvas"
+            src="./assets/icon-menu-close.svg"
+            alt=""
+          />
+        </div>
+        <ul class="offcanvas-body nav flex-column fs-5">
+          <li class="nav-item mb-3 fw-semibold">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item mb-3 fw-semibold">
+            <a class="nav-link" href="#shop">Shop</a>
+          </li>
+          <li class="nav-item mb-3 fw-semibold">
+            <a class="nav-link" href="#reviews">Reviews</a>
+          </li>
+          <li class="nav-item mb-3 fw-semibold">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item mb-3 fw-semibold">
+            <a class="nav-link" href="#Contacts">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div
+        id="carouselWithIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <ol class="carousel-indicators list-unstyled">
+          <li
+            data-bs-target="#carouselWithIndicators"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li
+            data-bs-target="#carouselWithIndicators"
+            data-bs-slide-to="1"
+          ></li>
+          <li
+            data-bs-target="#carouselWithIndicators"
+            data-bs-slide-to="2"
+          ></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img2.jpg" class="img-fluid" alt="Slide 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img3.jpg" class="img-fluid" alt="Slide 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img4.jpg" class="img-fluid" alt="Slide 3" />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselWithIndicators"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselWithIndicators"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </header>
+    <section id="shop" class="container-md">
+      <div class="row border-0">
+        <div class="col-md-4 card border-0">
+          <img class="card-img-top" src="./assets/card (1).webp" alt="card1" />
+          <div class="card-header text-danger border-0">
+            Sustainable Materials
+          </div>
+          <div class="card-body border-0">
+            <h2 class="card-title fs-6">Nike infinityRN4</h2>
+            <p class="card-text">Men's Running Shoes</p>
+            <p class="card-text"><strong>MRP :</strong> &#8377;14 995.00</p>
+            <button class="btn btn-success">Buy</button>
+          </div>
+        </div>
+        <div class="col-md-4 card border-0">
+          <img class="card-img-top" src="./assets/card (2).webp" alt="card1" />
+          <div class="card-header text-danger border-0">
+            Sustainable Materials
+          </div>
+          <div class="card-body border-0">
+            <h2 class="card-title fs-6">Nike infinityRN4 SE</h2>
+            <p class="card-text">Men's Running Shoes</p>
+            <p class="card-text"><strong>MRP :</strong> &#8377;14 995.00</p>
+            <button class="btn btn-success">Buy</button>
+          </div>
+        </div>
+        <div class="col-md-4 card border-0">
+          <img class="card-img-top" src="./assets/card (1).webp" alt="card1" />
+          <div class="card-header text-danger border-0">
+            Sustainable Materials
+          </div>
+          <div class="card-body border-0">
+            <h2 class="card-title fs-6">Nike infinityRN4</h2>
+            <p class="card-text">Men's Running Shoes</p>
+            <p class="card-text"><strong>MRP :</strong> &#8377;14 995.00</p>
+            <button class="btn btn-success">Buy</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="reviews" class="container-md align-items-center">
+      <div class="row gap-2 mb-3">
+        <div class="col-lg-4 mx-auto card rounded-1 review-card">
+          <div class="card-body">
+            <h5 class="card-title">Raja</h5>
+            <span class="card-subtitle">india</span>
+            <span class="d-block mt-2">⭐⭐⭐⭐</span>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus asperiores ullam, voluptatibus, corporis quia magni
+              molestias quos iste hic corrupti dolores, odit omnis labore.
+              Consequuntur, ducimus. Distinctio, eos! Ipsa, impedit.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 mx-auto card rounded-1 review-card">
+          <div class="card-body">
+            <h5 class="card-title">Sam</h5>
+            <span class="card-subtitle">india</span>
+            <span class="d-block mt-2">⭐⭐⭐⭐</span>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus asperiores ullam, voluptatibus, corporis quia magni
+              molestias quos iste hic corrupti dolores, odit omnis labore.
+              Consequuntur, ducimus. Distinctio, eos! Ipsa, impedit.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 mx-auto card rounded-1 review-card">
+          <div class="card-body">
+            <h5 class="card-title">Ruban</h5>
+            <span class="card-subtitle">india</span>
+            <span class="d-block mt-2">⭐⭐⭐⭐</span>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus asperiores ullam, voluptatibus, corporis quia magni
+              molestias quos iste hic corrupti dolores, odit omnis labore.
+              Consequuntur, ducimus. Distinctio, eos! Ipsa, impedit.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row gap-2 justify-content-between">
+        <div class="col-lg-4 mx-auto card rounded-1 review-card">
+          <div class="card-body">
+            <h5 class="card-title">Roja Mani</h5>
+            <span class="card-subtitle">india</span>
+            <span class="d-block mt-2">⭐⭐⭐⭐</span>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus asperiores ullam, voluptatibus, corporis quia magni
+              molestias quos iste hic corrupti dolores, odit omnis labore.
+              Consequuntur, ducimus. Distinctio, eos! Ipsa, impedit.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 mx-auto card rounded-1 review-card">
+          <div class="card-body">
+            <h5 class="card-title">Vishnu</h5>
+            <span class="card-subtitle">india</span>
+            <span class="d-block mt-2">⭐⭐⭐⭐</span>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus asperiores ullam, voluptatibus, corporis quia magni
+              molestias quos iste hic corrupti dolores, odit omnis labore.
+              Consequuntur, ducimus. Distinctio, eos! Ipsa, impedit.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 mx-auto card rounded-1 review-card">
+          <div class="card-body">
+            <h5 class="card-title">Vijay</h5>
+            <span class="card-subtitle">india</span>
+            <span class="d-block mt-2">⭐⭐⭐⭐</span>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Necessitatibus asperiores ullam, voluptatibus, corporis quia magni
+              molestias quos iste hic corrupti dolores, odit omnis labore.
+              Consequuntur, ducimus. Distinctio, eos! Ipsa, impedit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="container-md">
+      <div class="row me-5">
+        <div class="col-md-6 text-center">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum et
+            perferendis ipsum. Reiciendis enim, esse tempora aliquam voluptates
+            iure. Eveniet, provident magni, soluta placeat reprehenderit
+          </p>
+
+          <p>
+            dolores, ipsa adipisci? Illum, atque est? Temporibus saepe nam
+            asperiores, blanditiis veniam inventore eius error maiores eligendi
+            quia cupiditate et consequatur! Maiores fuga numquam totam adipisci
+            dignissimos hic blanditiis dolor facilis? Deserunt dicta praesentium
+            totam adipisci, facere accusamus, necessitatibus sint consequatur
+            omnis
+          </p>
+          <p>
+            ullam magni quis! Praesentium reprehenderit eos sint culpa et,
+            officia dolorum velit quas architecto? Et ducimus magnam tempore
+            ipsam ipsa repudiandae. Tenetur architecto alias numquam veritatis
+            hic enim quaerat ipsum tempora expedita, accusantium recusandae sunt
+            incidunt, tempore deserunt soluta. Neque aspernatur reiciendis illo
+            est veritatis quaerat. Porro provident unde, quisquam fugit illo
+            voluptates nisi? Tempora vitae necessitatibus sunt quo facilis,
+            saepe corporis ad reiciendis provident nam perferendis iusto ex
+            beatae id
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates
+            harum tempore, deserunt vitae inventore autem velit suscipit minima
+            voluptas laudantium deleniti quas nihil ut ratione neque quidem
+            error, odit repellat?
+          </p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <img
+            src="./assets/brand-nike-svgrepo-com.svg"
+            width="300"
+            alt="nike"
+          />
+        </div>
+      </div>
+    </section>
+    <section
+      id="contacts"
+      class="container d-flex justify-content-center align-items-center align-content-center"
+    >
+      <div class="borderline">
+        <h2 class="pb-3">Contact Form</h2>
+        <div class="row gap-3 mb-3">
+          <input type="text" class="col" placeholder="First Name" />
+          <input type="text" class="col" placeholder="Last Name" />
+        </div>
+        <div class="row mb-3">
+          <input type="email" class="col" placeholder="zainulabdeen@abd.com" />
+        </div>
+        <div class="row mb-3">
+          <input type="tel" class="col" placeholder="Mobile Number" />
+        </div>
+        <div class="row mb-3">
+          <input type="text" class="col" placeholder="Address" />
+        </div>
+        <div class="row mb-3">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            placeholder="For Your Query"
+            class="col"
+          ></textarea>
+        </div>
+        <div class="row">
+          <button class="btn btn-warning text-center">Submit</button>
+        </div>
+      </div>
+    </section>
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
